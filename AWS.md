@@ -18,7 +18,7 @@ apt-get install tmux
 tmux new -s pudgy
 ```
 
-Once you are connected to the AWS instance through putty (and have a tmux session going if you're into that), copy and paste the installation script (found at the link above) into a new script file you'll need to create. The past command for debiant is `shift + insert`:
+Once you are connected to the AWS instance through putty (and have a tmux session going if you're into that), copy and paste the installation script (found at the link above) into a new script file you'll need to create. The past command for debian is `shift + insert`:
 ```
 vim misp_install.sh
 ```
