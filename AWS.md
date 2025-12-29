@@ -22,7 +22,7 @@ Once you are connected to the AWS instance through putty (and have a tmux sessio
 ```
 vim misp_install.sh
 ```
-Before saving the file, make sure to change the `MISP_DOMAIN` variable to whatever domain you're planning to use (at the time, I ended up buying a Namecheap Domain and using a subdomain for MISP). Next, change teh OPENSSL info if no SSL cert is provided, then save by hitting `esc` and pressing `:wq!` and press `enter`. Make the script executable by running `chmod +x misp_install.sh`, and then execute it: `./misp_install.sh`
+Before saving the file, make sure to change the `MISP_DOMAIN` variable to whatever domain you're planning to use (at the time, I ended up buying a Namecheap Domain and using a subdomain for MISP). Next, change the OPENSSL info if no SSL cert is provided, then save by hitting `esc` and pressing `:wq!` and press `enter`. Make the script executable by running `chmod +x misp_install.sh`, and then execute it: `./misp_install.sh`
 
 At the time of jotting things down, I *think* that changing the `MISP_DOMAIN` variable within the script file will negate the need to run this command to change the baseurl:
 ```
